@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: grid;
+    justify-content: center;
+    padding-top: 30vh;
+    background: rgb(124, 242, 242);
+}
+header {
+    background: rgb(167, 158, 220);
+    border: 2px solid black;
+    padding: 1rem 5rem;
+}
+main {
+    background: rgb(167, 158, 220);
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+    padding: 0.5rem 0;
+}
+main div {
+    width: 7rem;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    margin: 0 0.2rem;
+    text-align: center;
+}
+main div h2 {
+    padding-bottom: 0.3rem;
+}
+main div p {
+    font-size: 2rem;
+    border-top: 2px solid white;
+    padding: 0.6rem;
+    margin: 0 0.2rem;
+    text-align: center;
+}
+footer {
+    background: rgb(167, 158, 220);
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+figure {
+    width: 8rem;
+}
+footer img {
+    width: 90px;
+    padding: 0.5rem;
+    margin-left: 1.2rem;
+    border-radius: 1rem;
+}
+.scissor {
+    width: 80px;
+}
+figcaption {
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    padding: 0.4rem;
+    margin:  0.5rem 0.2rem 0.5rem;
+    text-align: center;
+}
+.playAgain {
+    font-size: 1rem;
+    background:rgb(167, 158, 220);
+    padding: 0.5rem;
+}
